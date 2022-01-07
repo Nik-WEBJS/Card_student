@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; 
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+}
+
+.container-grid{
+    display: grid;
+    grid-template-areas:
+    'a a'
+    'b c'
+    'd d'
+    'e e'
+    'f f'
+    'g g'
+    'h h';
+    grid-gap: 1em;
+}
+
+.header{
+    grid-area: a;
+    justify-self: center;
+}
+
+.foto{
+    grid-area: b;
+    justify-self: center;
+}
+
+.foto img{
+    width: 200px;
+    border-radius: 5px;
+}
+
+.card{
+    grid-area: c;
+    justify-self: start;
+    align-self: center;
+}
+
+.card p{
+    padding-bottom: 10px;
+}
+
+.learning_objectives{
+    grid-area: d;
+    justify-self: center;
+}
+
+.spisoc{
+    grid-area: e;
+    justify-self: start;
+    margin-left: 35px;
+}
+
+.spisoc li{
+    margin-bottom: 10px;
+}
+
+.TimeToLearn{
+    grid-area: f;
+    justify-self: center;
+}
+
+.table_Time{
+   text-indent: 4em;
+   padding-top: 10px;
+}
+
+.table_Time td{
+    padding: 3px;
+}
+
+.finish_course{
+    grid-area: g;
+    justify-self: center;
+}
+
+.finish_course h2{
+    text-align: center;
+}
+
+.course_table{
+    width: 500px;
+    padding-top: 10px;
+    align-self: center;
+    text-align: center;
+}
+
+.course_table td{
+    padding: 3px;
+}
+
+.social_links{
+    grid-area: h;
+    justify-self: center;
+}
+
+.social_links h2{
+    text-align: center;
+}
+
+.socila_icones{
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
